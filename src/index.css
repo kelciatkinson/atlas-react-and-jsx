@@ -19,7 +19,7 @@
   color: var(--offwhite);
 }
 
-.app {
+.app, .App {
   max-width: 1000px;
   margin: 0 auto;
   padding: 1rem 1rem;
