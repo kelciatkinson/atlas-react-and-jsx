@@ -1,8 +1,12 @@
 import Header from "./components/Header.jsx";
 import Section from "./components/Section.jsx";
+import HelpfulResource from "./components/HelpfulResource.jsx";
 
 
 function App() {
+  function OpenLink() {
+
+  }
   return <div className="app">
     <Header />
     <Section title="What is react?">
@@ -16,6 +20,11 @@ function App() {
         <li>4th unordered list item</li>
         <li>5th unordered list item</li>
       </ul>
+    </Section>
+    <Section title="Helpful Resources">
+      <HelpfulResource link="https://google.com" label="1st" />
+      <HelpfulResource link="https://google.com" label="2nd" />
+      <HelpfulResource link="https://google.com" label="3rd" />
     </Section>
   </div>
   
