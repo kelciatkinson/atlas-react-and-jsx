@@ -1,6 +1,8 @@
-function Section(title, children) {
+function Section(props) {
   return <section className="section">
-    <h1>{title}</h1>
-    {children}
+    <h1>{props.title}</h1>
+    {props.children}
   </section>
 }
+
+export default Section;
