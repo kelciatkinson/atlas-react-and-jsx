@@ -1,11 +1,9 @@
-import Greeting from "./components/Greeting.jsx";
-import SocialLinks from "./components/SocialLinks.jsx";
+import Header from "./components/Header.jsx";
 
 
 function App() {
   return <div className="app">
-    <Greeting />
-    <SocialLinks />
+    <Header />
   </div>
   
 }
