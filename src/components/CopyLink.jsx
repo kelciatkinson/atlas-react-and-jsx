@@ -1,7 +1,6 @@
 import copy from "../assets/copy.svg";
 
 
-
 function CopyLink(props) {
   const clickCopy = () => {
     navigator.clipboard.writeText(props.link)

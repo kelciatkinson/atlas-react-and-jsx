@@ -29,9 +29,7 @@ function App() {
     </Section>
     <AboutMe />
 
-  </div>
-  
+  </div> 
 }
-
 
 export default App;
