@@ -28,7 +28,6 @@ function App() {
       <HelpfulResource link="https://google.com" label="3rd" />
     </Section>
     <AboutMe />
-
   </div> 
 }
 
