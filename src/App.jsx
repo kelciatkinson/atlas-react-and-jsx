@@ -2,6 +2,7 @@ import Header from "./components/Header.jsx";
 import Section from "./components/Section.jsx";
 import HelpfulResource from "./components/HelpfulResource.jsx";
 import AboutMe from "./components/AboutMe.jsx";
+import Footer from "./components/Footer.jsx";
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
       <HelpfulResource link="https://atlas-jswank.github.io/blog/react-state/" label="React State: useState" />
     </Section>
     <AboutMe />
+    <Footer />
   </div> 
 }
 
