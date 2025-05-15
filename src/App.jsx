@@ -11,21 +11,21 @@ function App() {
   return <div className="app">
     <Header />
     <Section title="What is react?">
-      <p>React</p>
+      <p>React is a JavaScript library that has become very popular for building web apps for user interfaces. It's also used for it's reusable componenets that are able to manage their own state.</p>
     </Section>
     <Section title="Benefits of react">
       <ul>
-        <li>1st unordered list item</li>
-        <li>2nd unordered list item</li>
-        <li>3rd unordered list item</li>
-        <li>4th unordered list item</li>
-        <li>5th unordered list item</li>
+        <li>Component-Based Architecture</li>
+        <li>Virtual DOM</li>
+        <li>Declarative Syntax</li>
+        <li>SEO Friendly</li>
+        <li>Easy to Learn</li>
       </ul>
     </Section>
     <Section title="Helpful Resources">
-      <HelpfulResource link="https://google.com" label="1st" />
-      <HelpfulResource link="https://google.com" label="2nd" />
-      <HelpfulResource link="https://google.com" label="3rd" />
+      <HelpfulResource link="https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Frameworks_libraries/React_getting_started" label="MDN Web Docs" />
+      <HelpfulResource link="https://react.dev/learn" label="React.dev" />
+      <HelpfulResource link="https://atlas-jswank.github.io/blog/react-state/" label="React State: useState" />
     </Section>
     <AboutMe />
   </div> 
